@@ -1,0 +1,35 @@
+<!doctype html>
+    <head>
+        <title>Old's Game</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div id="aviso" class="aviso" onclick="fecharAviso()">
+            <div class="aviso-conteudo">
+                <span class="fechar">&times;</span>
+                <p id="aviso-mensagem"></p>
+            </div>
+        </div>
+
+        <div id="main" class="inicio">
+            <div class="ui transparent input">
+                <h1>Old's Game</h1>
+
+                <br>
+    
+                <input type="text" id="nome1" placeholder="Jogador 1">
+    
+                <br>
+    
+                <input type="text" id="nome2" placeholder="Jogador 2">
+    
+                <br>
+    
+                <button onclick="prepararJogo()">Jogar</button>
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>

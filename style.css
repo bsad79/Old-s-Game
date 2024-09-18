@@ -1,0 +1,175 @@
+
+html{
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+    font-weight: bolder;
+    background-color: rgb(168, 14, 168);
+    color: gold;
+}
+
+.aviso{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    font-size: xx-large;
+    display: none; 
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.aviso-conteudo{
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 2%;
+    border: 1px solid #888;
+    max-height: 70%;
+    width: 70%;
+}
+
+.fechar{
+    color: #aaa;
+    float: right;
+    font-weight: bolder;
+    height: 10%;
+    width: 10%;
+}
+
+.fechar:hover,
+.fechar:focus{
+    color: rgb(168, 14, 168);
+    background-color: gold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.inicio {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+.inicio div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 30%;
+    background-color: white;
+}
+
+.ui.transparent.input>input {
+    background-color: transparent!important;
+    padding: 0!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+    border-top: transparent!important;
+    border-right: transparent!important;
+    border-left: transparent!important;
+}
+
+.ui.transparent.input>input:focus {
+    background-color: transparent!important;
+    padding: 0!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    border-radius: 0!important;
+    border-top: transparent!important;
+    border-bottom-color: gold;
+    border-right: transparent!important;
+    border-left: transparent!important;
+}
+
+.ui.input>input {
+    max-width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    text-align: left;
+    line-height: 1.21428571em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    padding: .67857143em 1em;
+    background: #fff;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    -webkit-transition: border-color .1s ease,-webkit-box-shadow .1s ease;
+    transition: border-color .1s ease,-webkit-box-shadow .1s ease;
+    transition: box-shadow .1s ease,border-color .1s ease;
+    transition: box-shadow .1s ease,border-color .1s ease,-webkit-box-shadow .1s ease;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.mesa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.painel {
+    transition: 0.5s;
+    display: grid;
+    justify-content: center;
+    margin: 20%;
+    background-color: white;
+    border: solid 5px white;
+    color: black;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+#narrador {
+    text-align: center;
+}
+
+.tabuleiro {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.casa {
+    font-size: xx-large;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(168, 14, 168);
+    transition: 0.5s;
+    background-color: white;
+}
+
+.casa:hover {
+    background-color: gold;
+    color: rgb(168, 14, 168);
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: solid 5px white;
+    font-size: large;
+    padding: 5%;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: rgb(168, 14, 168);
+    background-color: gold;
+}
